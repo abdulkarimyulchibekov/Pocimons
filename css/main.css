@@ -41,7 +41,7 @@ img {
 .list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start ;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -67,4 +67,8 @@ h1 {
   font-family: 'Roboto', 'Arial', sans-serif;
   letter-spacing: .4px;
   font-size: 24px;
+}
+
+.select {
+  margin-top: 10px;
 }
