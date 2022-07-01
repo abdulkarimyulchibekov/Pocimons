@@ -1,10 +1,7 @@
 var elSelect = document.querySelector('.js-select');
 const set = new Set();
 for (mb of data) {
-  for (i = 0; i < 6; i ++) {
-    set.add(mb.weaknesses[i]);  
-  }
-  set.delete(undefined);
+  set.add(...mb.type);
 }
 console.log(set);
 
